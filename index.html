@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Eligibility Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <h1>Discount Eligibility Program</h1>
+
+ <form>
+  <label for="fname">Name:</label><br>
+  <input type="text" id="fname" name="fname" required><br>
+
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname" required><br>
+ 
+  <label for="age">Enter age:</label><br>
+  <input type="number" id="age" name="age" required><br>
+
+  <label for="mStatus">Membership status:</label><br>
+  <input type="checkbox" id="mStatus" name="mStatus" value=""><br>
+
+  <button type="button" onclick="checkEligibility()" >Check Eligibility</button><br>
+  <!-- <output name="result" for="age mStatus" form="foo">Elribility</output> -->
+  <div id="result"></div>
+  </form>
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
